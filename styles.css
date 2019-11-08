@@ -11,11 +11,13 @@ body {
 	background-image: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));
 	color: #000;
 	height: 100vh;
+	transition: background 1s;
 }
 
 h1 {
 	font-size: 56px;
-	margin-bottom: 10px;
+	margin-bottom: 16px;
+	text-indent: -0.4em;
 }
 
 p {
@@ -43,4 +45,8 @@ footer {
 	width: 100%;
 	text-align: center;
 	padding: 30px;
+}
+
+.long {
+	font-size: 40px;
 }
